@@ -24,7 +24,7 @@ img :
 run :
 	../tolset/z_tools/make.exe img
 	copy helloos.img ..\tolset\z_tools\qemu\fdimage0.bin
-	../tolset/z_tools/make.exe -C ../tolset//z_tools/qemu
+	../tolset/z_tools/make.exe -C ../tolset/z_tools/qemu
 
 install :
 	../tolset/z_tools/make.exe img
